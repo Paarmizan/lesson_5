@@ -1,0 +1,167 @@
+/* ===============ПОДКЛЮЧЕНИЯ=============== */
+
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Open+Sans+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ===============WRAPPER=============== */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ===============INDEX=============== */
+
+#heading {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: cadetblue;
+    text-shadow: 1px 1px 2px #000;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: darkcyan;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+
+.block {
+    margin-bottom: 100px;
+    padding: 0 10%;
+}
+
+.text {
+    font-family: "Lora", serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    width: 800px;
+    margin: 0 auto 50px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.list-info.text {
+    margin-bottom: 10px;
+}
+
+.list-info {
+    line-height: 2;
+}
+
+.track-info {
+    width: 700px;
+    margin: 0 0 0 auto;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.marker {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.header p {
+    font-family: "Lora", serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+.header,
+.footer {
+    padding: 15px;
+}
+
+.footer a {
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.other p {
+    margin-bottom: 10px;
+}
+
+.other ul {
+    line-height: 1.5;
+    height: 100px;
+    width: 300px;
+    overflow: auto;
+    margin: 0 210px 50px;
+}
+
+/* ===============INDEX2=============== */
+
+.container {
+    width: 810px;
+    margin-left: 345px;
+    font-family: "Lato", sans-serif;
+    color: #1e212c;
+}
+
+.container h1 {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 90px;
+}
+
+.image {
+    margin-bottom: 60px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.container p.bold {
+    margin-bottom: 24px;
+}
+
+.normal {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #424551;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb48 {
+    margin-bottom: 48px;
+}
+
+p.definition.bold {
+    margin-left: 58px;
+    margin-bottom: 48px;
+}
+
+.mb24 {
+    margin-bottom: 24px;
+}
+
+.container li {
+    margin-bottom: 4px;
+    padding-left: 32px;
+}
